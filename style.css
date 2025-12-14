@@ -1,0 +1,81 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eef2f7;
+    color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    width: 100%;
+}
+
+h1 {
+    color: #1abc9c; /* Hijau Teal */
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #bdc3c7;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+.info-bar {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 20px;
+    color: #7f8c8d;
+}
+
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+.schedule-table th, .schedule-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #e0e0e0;
+}
+
+.schedule-table th {
+    background-color: #1abc9c;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+.schedule-table tbody tr:nth-child(even) {
+    background-color: #f8f8f8;
+}
+
+.schedule-table tbody tr:hover {
+    background-color: #f0f0f0;
+}
+
+/* Styling untuk Jam Istirahat */
+.break-time {
+    background-color: #f39c12 !important; /* Kuning/Oranye */
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Penanda Pelajaran Saat Ini (ditambahkan oleh JavaScript) */
+.current-lesson {
+    background-color: #e74c3c !important; /* Merah */
+    color: white;
+    font-weight: bold;
+    /* Efek animasi sederhana untuk menonjol */
+    box-shadow: 0 0 10px rgba(231, 76, 60, 0.5); 
+}
