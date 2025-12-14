@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jadwal Pelajaran Kelas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🗓️ Jadwal Pelajaran Kelas 10A</h1>
+        
+        <p id="current-time-info" class="info-bar">Waktu saat ini: Memuat...</p>
+
+        <h2>Senin</h2>
+        <table class="schedule-table" id="monday-schedule">
+            <thead>
+                <tr>
+                    <th>Jam Ke-</th>
+                    <th>Waktu</th>
+                    <th>Mata Pelajaran</th>
+                    <th>Pengajar</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr data-start="07:30" data-end="08:15">
+                    <td>1</td>
+                    <td>07:30 - 08:15</td>
+                    <td>Matematika</td>
+                    <td>Bapak Budi</td>
+                </tr>
+                <tr data-start="08:15" data-end="09:00">
+                    <td>2</td>
+                    <td>08:15 - 09:00</td>
+                    <td>Matematika</td>
+                    <td>Bapak Budi</td>
+                </tr>
+                <tr data-start="09:00" data-end="09:45">
+                    <td>3</td>
+                    <td>09:00 - 09:45</td>
+                    <td>Bahasa Indonesia</td>
+                    <td>Ibu Rina</td>
+                </tr>
+                <tr data-start="09:45" data-end="10:00" class="break-time">
+                    <td></td>
+                    <td>09:45 - 10:00</td>
+                    <td colspan="2">ISTIRAHAT</td>
+                </tr>
+                <tr data-start="10:00" data-end="10:45">
+                    <td>4</td>
+                    <td>10:00 - 10:45</td>
+                    <td>Fisika</td>
+                    <td>Bapak Anton</td>
+                </tr>
+                <tr data-start="10:45" data-end="11:30">
+                    <td>5</td>
+                    <td>10:45 - 11:30</td>
+                    <td>Fisika</td>
+                    <td>Bapak Anton</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Selasa</h2>
+        <table class="schedule-table" id="tuesday-schedule">
+             <thead>
+                <tr>
+                    <th>Jam Ke-</th>
+                    <th>Waktu</th>
+                    <th>Mata Pelajaran</th>
+                    <th>Pengajar</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr data-start="07:30" data-end="08:15">
+                    <td>1</td>
+                    <td>07:30 - 08:15</td>
+                    <td>Kimia</td>
+                    <td>Ibu Santi</td>
+                </tr>
+                <tr data-start="08:15" data-end="09:00">
+                    <td>2</td>
+                    <td>08:15 - 09:00</td>
+                    <td>Sejarah</td>
+                    <td>Bapak Sigit</td>
+                </tr>
+                 <tr data-start="09:00" data-end="09:45">
+                    <td>3</td>
+                    <td>09:00 - 09:45</td>
+                    <td>Geografi</td>
+                    <td>Bapak Indra</td>
+                </tr>
+            </tbody>
+        </table>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
